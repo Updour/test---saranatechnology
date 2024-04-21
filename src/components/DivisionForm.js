@@ -142,7 +142,7 @@ const transformFormData = async(e) => {
     Add Title
     </button>
     <button className="btn btn-primary ml-2" onClick={transformFormData}>
-    Submited
+    Submit
     </button>
     </div>
     </div>

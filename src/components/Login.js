@@ -23,7 +23,7 @@ const Login = () => {
     if (_.isEqual(results.data.success, true)) {
       alert(results.data.message)
       localStorage.setItem('accessToken', JSON.stringify(results.data.data.token))
-      setTimeout(() => navigate('/home'), 1500);
+      setTimeout(() => navigate('/division'), 1500);
     }
     }catch(e) {
       if (_.isEqual(e.response.data.success, false)) return alert(e.response.data.message)
