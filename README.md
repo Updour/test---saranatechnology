@@ -2,7 +2,11 @@
 
 In the project directory, you can run:
 
-## npm install
+### `npm install`
+
+Wait until the installation process is complete.\
+If you have finished it
+
 ### `npm start`
 
 Runs the app in the development mode.\
